@@ -43,7 +43,7 @@ Primeiro, certifique-se de que o backend está rodando:
 
 ```bash
 # Navegue até a pasta do backend
-cd "C:\Users\ACER\Desktop\GRADUAÇÃO I.A\2º Periodo\Pi\Project-CKV2.0\project-ck-backend"
+cd project-ck-backend
 
 # Com Docker (recomendado)
 docker-compose up
@@ -70,7 +70,7 @@ http://localhost:5001/docs
 
 ```bash
 # Navegue até a pasta do frontend
-cd "C:\Users\ACER\Desktop\GRADUAÇÃO I.A\2º Periodo\Pi\Project-CK3.0\project-ck"
+cd project-ck-front-end
 
 # Inicie o Streamlit
 streamlit run app.py
@@ -324,8 +324,8 @@ taskkill /PID <PID> /F
 
 ## 📚 Referências
 
-- **Backend**: `C:\Users\ACER\Desktop\GRADUAÇÃO I.A\2º Periodo\Pi\Project-CKV2.0\project-ck-backend`
-- **Frontend**: `C:\Users\ACER\Desktop\GRADUAÇÃO I.A\2º Periodo\Pi\Project-CK3.0\project-ck`
+- **Backend**: `project-ck-backend`
+- **Frontend**: `project-ck-front-end`
 - **Documentação API**: http://localhost:5001/docs
 - **Swagger JSON**: `project-ck-backend/swagger.json`
 

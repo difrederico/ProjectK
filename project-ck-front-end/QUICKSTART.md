@@ -4,7 +4,7 @@
 
 ### 1. Inicie o Backend
 ```powershell
-cd "C:\Users\ACER\Desktop\GRADUAÇÃO I.A\2º Periodo\Pi\Project-CKV2.0\project-ck-backend"
+cd project-ck-backend
 docker-compose up
 ```
 
@@ -12,7 +12,7 @@ Aguarde até ver: `* Running on http://0.0.0.0:5001`
 
 ### 2. Inicie o Frontend
 ```powershell
-cd "C:\Users\ACER\Desktop\GRADUAÇÃO I.A\2º Periodo\Pi\Project-CK3.0\project-ck"
+cd project-ck-front-end
 streamlit run app.py
 ```
 
